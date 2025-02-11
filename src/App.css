@@ -1,0 +1,106 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body
+{
+  background-color: whitesmoke;
+}
+.navSection
+{
+  display: flex;
+  border: 1px solid black;
+color: white;
+  background-color: black;
+  justify-content: space-between;
+  height: 40px;
+  padding-top: 10px;
+
+}
+.proTitle{
+  background-color: aliceblue;
+}
+.proSection{
+  display: flex;
+}
+.proImages
+{
+  width: 80%;
+  padding-left: 20px;
+}
+.proBox{
+  width: 100%;
+}
+.subMenu ul li{
+list-style: none;
+display: inline-flex;
+padding-left:50px ;
+font-size: medium;
+cursor: pointer;
+margin-top: 10px;
+margin-bottom: 8px;
+}
+.subMenu{
+  background-color: light gray;
+  color:black;
+}
+.subMenu ul{
+  background-color: beige;    
+
+}
+.pageSection{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 16px;
+padding: 20px;
+}
+.pageSectionImages
+{
+  width: 250px;
+  flex: 1 1 200px;
+  height:350px;
+  gap: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.pageSectionImagesList{
+  width: 100%;
+}
+.pageModel
+{
+  text-align: center;
+}
+
+
+.ind-page {
+  display: flex;
+  padding: 20px;
+}
+
+.ind-image {
+width: 500px;
+  height: 500px;
+}
+
+.ind-image img {
+width: 100%;
+ border-radius: 8px;
+}
+
+.ind-details {
+  padding: 20px;
+  border-radius: 10px;
+}
+.ind-details button
+{
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:skyblue;
+  color: black;
+  width: 150px;
+}
